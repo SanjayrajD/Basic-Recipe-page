@@ -1,0 +1,89 @@
+* 
+{
+    padding: 0px;
+    margin:0px;
+}
+body 
+{
+    background-color: papayawhip;
+    
+}
+.outerbox 
+{
+    position: absolute;
+    margin: 80px 0 0 420px;
+    width: 500px;
+    height: 1500px;
+    background-color: white;
+    border-radius: 14px;
+    padding: 20px;
+}
+.outerbox img 
+{
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+}
+.outerbox p 
+{
+    text-align: justify;
+
+}
+.outerbox .preparation 
+{
+    background-color: rgb(245, 217, 237);
+    padding: 10px;
+    border-radius: 10px;
+}
+.outerbox h3
+{
+    padding-left: 10px;
+    color: rgb(145, 41, 145);
+}
+.outerbox .preparation ul 
+{
+    padding: 6px 0 0 37px;
+    line-height: 33.5px;
+}
+.outerbox h2 
+{
+    color: rgb(109, 24, 24);
+}
+.outerbox .ingredients ul 
+{
+    padding: 6px 0 0 21px;
+    line-height: 33.5px;
+}
+.outerbox .instruction ol 
+{
+    padding: 14px 0 0 21px;
+    line-height: 19.5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: justify;
+}
+.outerbox .nutrition p
+{
+    padding-top: 13px;
+}
+.outerbox .nutrition table 
+{
+    padding-top: 13px;
+    width: 100%;
+}
+
+.outerbox .nutrition td
+{ 
+    padding: 10px;
+    border-bottom: 1px dashed brown;
+}
+@media only screen and (max-width: 600px) {
+    .outerbox 
+{
+    margin: 0px;
+    width: 318px;
+    height: 1680px;
+    border-radius: 0px;
+}
+  }
